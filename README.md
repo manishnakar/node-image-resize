@@ -22,4 +22,4 @@ It will start the server at [http://localhost:5000/](http://localhost:5000/)
     S3_REGION=us-east-2
     S3_BUCKET_NAME=profile-avatar
 
-## ALWAYS PUT THIS .env FILE IN THE .gitignore FILE
+ALWAYS PUT THIS .env FILE IN THE .gitignore FILE
