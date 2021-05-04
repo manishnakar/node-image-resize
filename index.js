@@ -43,7 +43,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
 app.get('/', async function (req, res) {
-  await res.render('index');
+  await res.send("welcome to image upload via node");
 });
 
 app.post('/upload', async (req, res) => {
